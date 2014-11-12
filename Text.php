@@ -12,8 +12,41 @@
 <body>
 
 	<?php
+	include ('Text.css');
+	$naam="Simeon";
+	$achternaam="Van den bril";
+	$kleur="rode";
+	$fruit="appel";
+	$result = $kleur . $fruit;
+	
+	var_dump( $naam );
+	
+	// Commentaar  dit is een variabele
+	/* nog een commentaar */
+		echo("<div class='k'></div>");
 		echo ("Hierin typ ik eens voluit kort");
+		echo ("<div class='j'></div>");
+		
+		// Void voor de echo laat hem niet weergeven
 	?>
+	<?php print("$naam"); ?>
+	<?=$achternaam?>
+	<?php
+		echo("<div class='k'></div>");
+	?>
+	<h1>
+		<?php
+			if (print("$naam")) {
+				echo ("weergegeven");
+			}
+		?>
+	</h1>
+	<?php
+		echo("<div class='k'></div>");
+	?>
+	<?=$result?>
+	<?=$kleur?>
+	<?=$fruit?>
 
 </body>
 </html>
