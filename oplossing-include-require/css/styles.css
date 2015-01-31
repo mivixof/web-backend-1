@@ -1,0 +1,107 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+.group:after {
+		content:"";
+		display:table;
+		clear:both;
+	}
+
+.footer {
+	background-color:black;
+	height:180px;
+	color:white;
+}
+
+.footer h1 {
+	float:left;
+	color:white;
+	font-size:18px;
+	margin-left:50px;
+}
+
+.footer p {
+	float:right;
+	color:white;
+	margin-right:50px;
+}
+
+.footer a {
+	float:right;
+	text-decoration:none;
+}
+
+h1, h2, p {
+	font-family:helvetica;
+}
+
+.contain {
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	height:500px;
+}
+
+.lijn {
+	height:1px;
+	background-color:grey;
+	width:auto;
+	margin-bottom:25px;
+}
+
+.lijn2{
+	height:1px;
+	background-color:grey;
+	width:210px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.blok {
+	float:left;
+	margin-left:33px;
+	width:230px;
+	background-color:#dadada;
+}
+
+.blok h2 {
+	margin-left:10px;
+	font-size:25px;
+}
+.blok p {
+	margin-left:10px;
+	margin-right:10px;
+	font-size:15px;
+}
+
+	nav {
+		background-color:black;
+	}
+	
+	nav h1 {
+		float:left;
+		color:white;
+		font-family:helvetica;
+		margin-left:50px;
+		font-size:30px;
+	}
+	
+	nav ul {
+		float:right;
+	}
+	
+	nav ul li {
+		display:inline-block;
+		background-color:black;
+		padding:5px;
+		margin:5px;
+		font-family:helvetica;
+		margin-right:30px;
+	}
+	
+	nav a {
+		text-decoration:line;
+		color:white;
+	}

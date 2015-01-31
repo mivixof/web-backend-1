@@ -1,0 +1,11 @@
+<div class="contain">
+<h1>Nieuws</h1>
+<div class="lijn"></div>
+	<?php foreach ($artikel as $id => $art):?>
+	<div class="blok">
+	<h2><?php echo $art['titel'] ?></h2>
+	<div class="lijn2"></div>
+	<p><?php echo $art['tekst'] ?></p>
+	</div>
+	<?php endforeach?>
+</div>
