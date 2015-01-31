@@ -13,8 +13,8 @@
 
 	<?php
 	include ('Text.css');
-	$naam="Simeon";
-	$achternaam="Van den bril";
+	$naam="naam";
+	$achternaam="achternaam";
 	$kleur="rode";
 	$fruit="appel";
 	$result = $kleur . $fruit;

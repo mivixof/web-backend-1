@@ -1,9 +1,9 @@
 	<?php
 				// alle variabels hier
-					$naam="Simeon";
-					$achternaam="Van den Bril";	
+					$naam="naam";
+					$achternaam="achternaam";	
 					$result=$naam . " " . $achternaam ;
-					$mail="simeon.van.den.bril@gmail.com";
+					$mail="naam+achternaam@mail.com";
 			?>
 <!doctype html>
 <html>
