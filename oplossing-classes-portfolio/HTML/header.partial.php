@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<link rel="stylesheet" href="http://oplossingen.web-backend.local/classes-portfolio/CSS/global.css">
+	<link rel="stylesheet" href="CSS/global.css">
 	<title>Portfolio</title>
 </head>
 <body>
