@@ -6,7 +6,6 @@ session_start();
 		$mess2		= 'Proficiat! Je bent klaar.';
 		$mess3		= 'Gedaan ermee!';
 		$sessions 	= $_SESSION;
-		$cname		= 'Todo';
 		$message	= '';
 		
 //deze code zorgt voor de message die komt als er niets is ingegeven.
