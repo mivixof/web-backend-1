@@ -78,6 +78,11 @@
 		</li>
 		<?php endforeach ?>
 	</ul>
+		<!--Als session tedoen leeg is en gedaan wel iets heeft komt dit bericht-->
+		<?php if ((empty($_SESSION['tedoen'])) && (!empty($_SESSION['gedaan']))): ?>
+			<p>Proficiat, je hebt alles gedaan!</p>
+		<?php endif ?>
+		
 	<!-- 2de bericht -->
 	<h2>Gedaan</h2>
 	<ul>
@@ -91,6 +96,11 @@
 		</li>
 		<?php endforeach ?>
 	</ul>
+		<!--Als session tedoen niet leeg is en gedaan wel komt dit bericht-->
+		<?php if ((!empty($_SESSION['tedoen'])) && (empty($_SESSION['gedaan']))): ?>
+			<p>Nog werk aan de winkel!</p>
+		<?php endif ?>
+		
 	<?php endif ?>
 	
 	<!-- Begin Formulier -->
